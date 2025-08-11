@@ -90,7 +90,7 @@ body {
   text-align: center;
 }
 
-.info-thing p {
+.info-thing p, .quote-box p {
   padding: 0;
   margin: 0;
 }
@@ -104,6 +104,28 @@ body {
   width: 150px;
   margin-bottom: 9px;
 }
+
+.quote-box {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 96px 220px;
+}
+
+.quote-text {
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+}
+
+.quote-attribute {
+  font-size: 24px;
+  font-weight: 900;
+  color: #1F2937;
+  text-align: right;
+}
+
 
 .button {
   text-align: center;
